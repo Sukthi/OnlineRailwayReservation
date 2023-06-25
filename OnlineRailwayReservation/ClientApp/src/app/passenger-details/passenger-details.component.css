@@ -1,0 +1,99 @@
+.topnav {
+    background-color: #2a0000;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(84, 2, 2);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #611d02;
+    color: white;
+  }
+  .topnav-right {
+    float: right;
+  }
+  .button {
+
+    border: none;
+
+    color: white;
+
+    padding: 16px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    transition-duration: 0.4s;
+
+    cursor: pointer;
+
+   
+
+  }
+
+ 
+
+  .button1 {
+
+    background-color:#2a0000;
+
+    color: rgb(252, 247, 247);
+
+   
+
+  }
+
+ 
+
+  .button1:hover {
+
+    background-color: #611d02;
+
+    color: white;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  body{
+    background-image: url('C:\Users\thejr\OneDrive\Desktop\RailwayReservation\railway\src\assets\img\Untitled design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+    

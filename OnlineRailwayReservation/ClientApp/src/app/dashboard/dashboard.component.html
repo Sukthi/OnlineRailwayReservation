@@ -1,0 +1,133 @@
+
+<body>
+  <div>
+    <head>
+        <style>
+       
+        h1 {
+          color: #2a0000;
+         
+        }
+    
+
+        </style>
+        </head>
+        
+            
+ 
+    <h1 align = "center">WELCOME!</h1>
+    <p align = "center">BOOK THE TICKETS TO YOUR DESTINATION<p>
+       
+   
+    <head>
+        <style>
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        </style>
+        </head>
+        
+        <div class="container">
+          <form action="/action_page.php">
+            <table>
+              <tr>
+                <th>
+                  <label for="fromLocation">FROM</label>
+                </th>
+                <th>
+                  <select>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Kolkata">Kolkata</option>
+                  </select>
+                </th>
+                <th>
+                  <label for="destination">TO</label>
+                </th>
+                <th>
+                  <select>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Kolkata">Kolkata</option>
+                  </select>
+                </th>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <th>
+                  <label for="departure">DEPARTURE DATE</label>
+                </th>
+                <th>
+                  <input type="date">
+                </th>
+                <th>
+                  <label for="arrival">ARRIVAL DATE</label>
+                </th>
+                <th>
+                  <input type="date">
+                </th>
+              </tr>
+            </table>
+            <br><br>
+            <button class="button button1"><a href="/Search">Search</a></button>
+            <router-outlet></router-outlet>
+          </form>
+        </div>
+     
+        <style>
+          .button {
+          
+              border: none;
+          
+              color: white;
+          
+              padding: 16px 32px;
+          
+              text-align: center;
+          
+              text-decoration: none;
+          
+              display: inline-block;
+          
+              font-size: 16px;
+          
+              margin: 4px 2px;
+          
+              transition-duration: 0.4s;
+          
+              cursor: pointer;
+          
+             
+          
+            }
+          
+           
+          
+            .button1 {
+          
+              background-color: #2a0000;
+          
+              color: white;
+          
+            
+            }
+          
+           
+          
+            .button1:hover {
+          
+              background-color: #611d02;
+          
+              color: white;
+          
+            }
+          
+      
+            </style>
+           
+      

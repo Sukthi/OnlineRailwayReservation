@@ -1,0 +1,11 @@
+body{
+    background-image: url('C:\Users\thejr\OneDrive\Desktop\RailwayReservation\railway\src\assets\img\Untitled design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+    
